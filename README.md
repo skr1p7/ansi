@@ -42,5 +42,5 @@ To run the playbook, use the following command
 [NOTE: The playbook is configured to be used in localhost]
 
 ```bash
-$ sudo ansible-playbook code.yml
+$ sudo ansible-playbook play_test.yml
 ```
