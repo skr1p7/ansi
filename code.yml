@@ -1,8 +1,0 @@
----
-- hosts: localhost
-  tasks:
-    - name: Response code generator
-      url_code: url=http://google.com
-      register: result
-
-    - debug: var=result 

@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:
+    - name: Test that my module works
+      is_alive:
+        url: google.com
+      register: result
+
+    - debug: var=result
